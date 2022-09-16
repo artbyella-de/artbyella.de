@@ -1,0 +1,16 @@
+---
+title: template
+date: 2003-10-05T17:33:14+02:00
+featured: false
+tags: tagname
+tranding: false
+author: Autorenname
+authorThumb: images/ella.png
+thumbnail: /images/posts/blog-thum-0.png
+featureImage: /images/posts/feat-image-0.png
+preview: /images/progress.png
+draft: true
+---
+
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos accusam et justo duo dolores ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.

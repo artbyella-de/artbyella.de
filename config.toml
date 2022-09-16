@@ -1,0 +1,40 @@
+baseURL = 'https://ArtByElla.de/'
+languageCode = 'de-de'
+title = 'Art By Ella'
+copyright = 'Sophia Élaine Stein'
+
+theme = "blogge-hugo-theme"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = ""
+    weight = 1
+  [[menu.main]]
+    name = "Words"
+    url = "tags/words"
+    weight = 2
+  [[menu.main]]
+    name = "Drawing"
+    url = "tags/drawing"
+    weight = 3
+  [[menu.main]]
+    name = "About Me"
+    url = "about"
+    weight = 4
+
+[params]
+  summarylength = 80
+  logo = "images/artbyella.svg"
+  author = "Sophia Élaine Stein"
+  authorThumb= "images/ella.png"
+  instaUsernameLya = "_lya_o.0"
+  instaUsername = "el.draw03"
+  trendingBlogIcon = "images/icon.svg"
+  pinterestUsername = "5f5f4315d345e282be278e71bc948a"
+  deviantartUsername = "elaine003"
+  blogTitle = "Beiträge"
+  blogSubTitle = "Zeige die neusten Beiträge"
+
+[taxonomies]
+  tag = "tags"

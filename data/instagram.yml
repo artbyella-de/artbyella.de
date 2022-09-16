@@ -1,0 +1,13 @@
+---
+enable: true
+instaImages:
+  [
+    "images/art/banner-0.png",
+    "images/art/banner-1.png",
+    "images/art/banner-2.png",
+    "images/art/banner-3.png",
+    "images/art/banner-4.png",
+    "images/art/banner-5.png",
+  ]
+---
+

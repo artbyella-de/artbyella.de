@@ -1,0 +1,12 @@
+---
+title: "Impressum"
+---
+
+#### Angaben gemäß § 5 TMG
+Lya Schumacher\
+Im Suren Winkel 10\
+21365 Adendorf
+#### Kontakt
+Telefon: +49 176 60818432\
+E-Mail: contact@artbyella.de
+
