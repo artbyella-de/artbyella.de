@@ -10,6 +10,6 @@
         "editor.minimap.enabled": false
     },
     "frontMatter.content.autoUpdateDate": true,
-    "frontMatter.dashboard.openOnStart": false,
+    "frontMatter.dashboard.openOnStart": true,
     "frontMatter.templates.enabled": true
 }
