@@ -9,7 +9,7 @@
         "editor.quickSuggestions": false,
         "editor.minimap.enabled": false
     },
-    "frontMatter.content.autoUpdateDate": false,
+    "frontMatter.content.autoUpdateDate": true,
     "frontMatter.dashboard.openOnStart": false,
     "frontMatter.templates.enabled": true
 }

@@ -6,9 +6,10 @@ tags: willkommen
 tranding: false
 author: Ella
 authorThumb: images/ella.png
-thumbnail: /images/posts/blog-thum-0.png
-featureImage: /images/posts/feat-image-0.png
-preview: /images/posts/feat-image-0.png
+thumbnail: /images/posts/blog-thum-willkommen.png
+featureImage: /images/posts/feat-image-willkommen.png
+preview: /images/posts/feat-image-willkommen.png
+lastmod: 2022-09-16T17:06:10.447Z
 ---
 
 
@@ -32,7 +33,6 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 
 consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
-![](/images/blog/feature-image-05.jpg)
 
 ### Lass uns träumen
 
