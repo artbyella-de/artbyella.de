@@ -8,6 +8,7 @@
   authorThumb: "images/lya.png"
   thumbnail: /images/progress.png
   featureImage: /images/progress.png
+  preview: /images/progress.png
 ---
 
 Hier entsteht die Website von Ella, dafür möchten Wir unser bestes geben und arbeiten gezielt an neuen Ideen.

@@ -8,6 +8,7 @@
   authorThumb: "images/ella.png"
   thumbnail: /images/art/blog-thum-words.png
   featureImage: /images/art/feat-image-words.png
+  preview: /images/art/feat-image-words.png
 ---
 
 Und sie sagen
