@@ -8,6 +8,7 @@
   authorThumb: "images/ella.png"
   thumbnail: /images/posts/blog-thum-2.png
   featureImage: /images/posts/feat-image-2.png
+  preview: /images/posts/feat-image-2.png
 ---
 
 > Mit Farben lernt man fliegen
