@@ -82,5 +82,9 @@
     "s",
     "w"
   ],
-  "frontMatter.taxonomy.categories": []
+  "frontMatter.taxonomy.categories": [],
+  "frontMatter.content.autoUpdateDate": true,
+  "frontMatter.dashboard.openOnStart": true,
+  "frontMatter.preview.host": "http://localhost:1313/",
+  "frontMatter.templates.enabled": true
 }
