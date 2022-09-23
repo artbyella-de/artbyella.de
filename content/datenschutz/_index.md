@@ -49,7 +49,7 @@ Wir weisen darauf hin, dass die Datenübertragung im Internet (z. B. bei der Ko
 
 Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
 
-Lya Schumacher\
+[Lya Schumacher](/aboutlya)  
 Im Suren Winkel 10\
 21365 Adendorf\
 Telefon: +49 176 60818432\
