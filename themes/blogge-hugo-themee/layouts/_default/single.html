@@ -1,0 +1,83 @@
+{{ define "main" }}
+
+<section class="blog-single">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-2 order-2 order-lg-1">
+        <div class="share-now">
+          <a href="#" class="scrol">Besuche</a>
+          <div class="sociel-icon">
+            <ul>
+              <li>
+                <a href="https://www.pinterest.com/{{ .Site.Params.pinterestUsername }}">
+                  <i class="fa fa-pinterest"></i></a></li>
+              <li>
+                <a href="https://www.instagram.com/{{ .Site.Params.instaUsername }}">
+                  <i class="fa fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="https://www.deviantart.com/{{ .Site.Params.deviantartUsername }}">
+                  <i class="fa fa-deviantart"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-10 order-1 order-lg-2">
+        <article class="single-blog">
+          <a href={{ printf "tags/%s" .Params.tags | absURL }} class="tag">{{ .Params.tags }}</a>
+          <p class="title">{{ .Title }}</p>
+          <ul class="meta">
+            <li>
+              {{ if eq .Params.author "Ella" }}
+              <li>
+                By <a href={{ "about" | absURL }}>{{ .Params.author }}</a>
+              </li>
+              {{end}}
+              {{ if eq .Params.author "Lya" }}
+              <li>
+                By <a href={{ "aboutlya" | absURL }}>{{ .Params.author }}</a>
+              </li>
+              {{end}}
+            </li>
+            <li>
+              <i class="fa fa-clock-o"></i>
+              {{ .PublishDate.Format "January 2, 2006" }}
+            </li>
+          </ul>
+          <div class="feature-image">
+            <img src="{{ .Params.featureImage  | absURL }}" alt="banner">
+          </div>
+          <div class="single-blog-content">
+            {{ .Content }}
+          </div>
+
+        </article>
+        <div class="blog-single-presentation">
+          <ul>
+            {{ with .Site.RegularPages.Prev . }}
+            <li> <a href="{{.RelPermalink}}" class="tag">Vorheriger Beitrag</a>
+              <a href="{{.RelPermalink}}" class="title">
+                {{ .Title }}
+              </a>
+              <i class="fa fa-clock-o"></i>
+              {{ .PublishDate.Format "January 2, 2006" }}
+            </li>
+            {{ end }}
+            {{ with .Site.RegularPages.Next . }}
+            <li> <a href="{{.RelPermalink}}" class="tag">Nächster Beitrag</a>
+              <a href="{{.RelPermalink}}" class="title">
+                {{ .Title }}
+              </a>
+              <i class="fa fa-clock-o"></i>
+              {{ .PublishDate.Format "January 2, 2006" }}
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

@@ -1,0 +1,49 @@
+{{ define "main" }}
+<section class="blog">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <div class="blog-section-title">
+          <h2>{{ .Title }}</h2>
+          <p>Zeige die neusten Beiträge von {{ .Title }}</p>
+        </div>
+        {{ range $.Paginator.Pages }}
+        <article class="blog-post">
+          <div class="blog-post-thumb">
+            <a href="{{ .Permalink }}"><img src="{{ .Params.thumbnail  | absURL }}" alt="blog-thum" /></a>
+          </div>
+          <div class="blog-post-content">
+            <div class="blog-post-title">
+              <a href="{{ .Permalink }}"> {{ .Title }} </a>
+            </div>
+            <div class="blog-post-meta">
+              <ul>
+                {{ if eq .Params.author "Ella" }}
+                <li>
+                  By <a href={{ "about" | absURL }}>{{ .Params.author }}</a>
+                </li>
+                {{end}}
+                {{ if eq .Params.author "Lya" }}
+                <li>
+                  By <a href={{ "aboutlya" | absURL }}>{{ .Params.author }}</a>
+                </li>
+                {{end}}
+                <li>
+                  <i class="fa fa-clock-o"></i>
+                  {{ .PublishDate.Format "January 2, 2006" }}
+                </li>
+              </ul>
+            </div>
+            <p>
+              {{.Summary}}
+            </p>
+            <a href="{{ .Permalink }}" class="blog-post-action">lies mehr <i class="fa fa-angle-right"></i></a>
+          </div>
+        </article>
+        {{ end }}
+        {{ partial "pagination" .}}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

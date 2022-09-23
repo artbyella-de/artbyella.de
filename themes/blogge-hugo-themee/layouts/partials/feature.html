@@ -1,0 +1,36 @@
+{{ range $.Site.RegularPages }}
+{{ if eq .Params.featured true }}
+<section class="featured">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <article class="featured-post">
+          <div class="featured-post-content">
+            <div class="featured-post-author">
+              <img src="{{ .Params.authorThumb | absURL }}" alt="author" />
+              {{ if eq .Params.author "Ella" }}
+              <p>By <a href={{ "about" | absURL }}>{{ .Params.author }}</a></p>
+              {{ end }}
+              {{ if eq .Params.author "Lya" }}
+              <p>By <a href={{ "aboutlya" | absURL }}>{{ .Params.author }}</a></p>
+              {{ end }}
+            </div>
+            <a href="{{ .Permalink }}" class="featured-post-title">
+              {{ .Title }}
+            </a>
+            <ul class="featured-post-meta">
+              <li>
+                <i class="fa fa-clock-o"></i>
+                {{ .PublishDate.Format "January 2, 2006" }}
+              </li>
+            </ul>
+          </div>
+          <div class="featured-post-thumb">
+            <a href="{{ .Permalink }}"><img src="{{ .Params.thumbnail  | absURL }}" alt="feature-post-thumb" /></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }} {{ end }}
