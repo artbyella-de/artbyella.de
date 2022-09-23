@@ -19,7 +19,7 @@ jobs:
         # extended: true
 
     - name: Build
-      run: hugo --minify
+      run: hugo
 
     - name: copy folder via ssh password
       uses: appleboy/scp-action@master
@@ -28,5 +28,5 @@ jobs:
         username: ${{ secrets.REMOTE_USER }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         port: 22
-        source: "public/*"
+        source: "public/"
         target: "artbyella.de"
