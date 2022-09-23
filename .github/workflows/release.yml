@@ -25,7 +25,7 @@ jobs:
       run: hugo --minify
 
     - name: Deploy to Server
-      uses: artbyella-de/artbyella.de@main
+      uses: easingthemes/ssh-deploy@main
       env:
           SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
           ARGS: "-rltgoDzvO --delete"
