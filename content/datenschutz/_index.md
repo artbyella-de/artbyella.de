@@ -1,5 +1,6 @@
 ---
 title: "Datenschutzerklärung"
+preview: /images/posts/feat-image-datenschutz.png
 ---
 
 ## 1. Datenschutz auf einen Blick 

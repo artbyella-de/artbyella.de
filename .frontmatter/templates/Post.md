@@ -1,17 +1,16 @@
 ---
-title: template
-date: 2003-10-05T17:33:14+02:00
+title: Der Papagei
+tags: drawing
+date: 2100-09-03T17:33:14+02:00
+lastmod: 2022-09-17T11:30:39.446Z
 featured: false
-tags: tagname
-tranding: false
-author: Autorenname
-authorThumb: images/ella.png
-thumbnail: /images/posts/blog-thum-willkommen.png
-featureImage: /images/posts/feat-image-willkommen.png
-preview: /images/posts/feat-image-willkommen.png
+tranding: true
 draft: true
-lastmod: 2022-09-16T17:06:43.298Z
+author: Ella
+authorThumb: /images/ella.png
+thumbnail: /images/posts/blog-thum-der-papagei.png
+featureImage: /images/posts/feat-image-der-papagei.png
+preview: /images/posts/feat-image-der-papagei.png
 ---
 
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos accusam et justo duo dolores ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+> Mit Farben lernt man fliegen

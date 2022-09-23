@@ -11,17 +11,26 @@ theme = "blogge-hugo-theme"
     url = ""
     weight = 1
   [[menu.main]]
+    identifier = "tags"
+    name = "Categorys"
+    url = ""
+    weight = "2"
+  [[menu.main]]
+    identifier = "words"
     name = "Words"
     url = "tags/words"
-    weight = 2
+    parent = "tags"
+    weight = 1
   [[menu.main]]
+    identifier = "drawing"
     name = "Drawing"
     url = "tags/drawing"
-    weight = 3
+    parent = "tags"
+    weight = 2
   [[menu.main]]
     name = "About Me"
     url = "about"
-    weight = 4
+    weight = 3
 
 [params]
   summarylength = 80
