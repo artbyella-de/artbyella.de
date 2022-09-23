@@ -1,5 +1,5 @@
 ---
-title: Willkommen in Meiner Welt
+title: Willkommen in meiner Welt
 date: 2003-10-05T17:33:14+02:00
 featured: true
 tags: willkommen
