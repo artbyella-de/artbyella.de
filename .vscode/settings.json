@@ -1,5 +1,4 @@
 {
-    "frontMatter.preview.host": "http://localhost:1313/",
     "[markdown]": {
         "editor.fontSize": 14,
         "editor.lineHeight": 26,
@@ -12,8 +11,5 @@
             "other": "off"
         },
         "editor.minimap.enabled": false
-    },
-    "frontMatter.content.autoUpdateDate": true,
-    "frontMatter.dashboard.openOnStart": true,
-    "frontMatter.templates.enabled": true
+    }
 }
