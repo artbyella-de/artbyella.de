@@ -169,6 +169,9 @@
           @include desktop {
             text-align: left;
           }
+          @include mobile {
+            font-size: 24px;
+          }
         }
       }
       .latest-widget {
