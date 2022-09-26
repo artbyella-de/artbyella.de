@@ -21,7 +21,7 @@ theme = "blogge-hugo-themee"
     url = "tags/drawing"
     weight = 3
   [[menu.main]]
-    name = "About Me"
+    name = "About"
     url = "about"
     weight = 4
 
