@@ -10,7 +10,9 @@ $(document).ready(function(){
     });
 });
 function loadPage(url){
-    $(body).load(url + 'body', hijack);
+    $.get(url + 'body', function(data) {
+        $("body").replaceWith(data);
+    });
 }
 
 </script>
