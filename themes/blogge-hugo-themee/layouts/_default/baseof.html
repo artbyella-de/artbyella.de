@@ -2,6 +2,17 @@
 <html>
 {{ partial "head.html" . }}
 
+<script>
+    function hijack() {
+        $('#content a').click(function(e){
+            e.preventDefault();
+            loadPage(e.target.href);
+            })
+    }
+    function loadPage(url){
+        $('#content').load(url + '#content', hijack);
+    }
+</script>
 <body>
     {{ partial "header.html" . }}
     <div id="content">
