@@ -2,20 +2,20 @@
 <html>
 {{ partial "head.html" . }}
 
+
 <script>
-$(document).ready(function(){
-    $(body).click(function(e){
-        e.preventDefault();
-        e.stopPropagation();
-        loadPage($(this).attr('href'));
+    $(document).ready(function(){
+        $("li").click(function(){
+            e.preventDefault();
+            e.stopPropagation();
+            loadPage($(this).attr('href'));
+        });
     });
-});
 function loadPage(url){
     $.get(url + 'body', function(data) {
         $("body").replaceWith(data);
     });
 }
-
 </script>
 <body>
     {{ partial "header.html" . }}
