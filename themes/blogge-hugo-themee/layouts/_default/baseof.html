@@ -4,13 +4,13 @@
 
 <script>
     function hijack() {
-        $('#content a').click(function(e){
+        $('body').click(function(e){
             e.preventDefault();
             loadPage(e.target.href);
             })
     }
     function loadPage(url){
-        $('#content').load(url + '#content', hijack);
+        $('body').load(url + 'body', hijack);
     }
 </script>
 <body>
