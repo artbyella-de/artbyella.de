@@ -3,15 +3,16 @@
 {{ partial "head.html" . }}
 
 <script>
-    function hijack() {
-        $('body').on('click', 'body *', function(e){
-            e.preventDefault();
-            loadPage(e.target.href);
-            })
-    }
-    function loadPage(url){
-        $('body').load(url + 'body', hijack);
-    }
+$(document).ready(function(){
+    $(body).click(function(e){
+        e.preventDefault();
+        loadPage(e.target.href);
+    });
+});
+function loadPage(url){
+    $(body).load(url + 'body', hijack);
+}
+
 </script>
 <body>
     {{ partial "header.html" . }}
