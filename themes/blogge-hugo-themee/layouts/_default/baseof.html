@@ -6,7 +6,8 @@
 $(document).ready(function(){
     $(body).click(function(e){
         e.preventDefault();
-        loadPage(e.target.href);
+        e.stopPropagation();
+        loadPage($(this).attr('href'));
     });
 });
 function loadPage(url){
