@@ -44,7 +44,7 @@
                 });
         }
     });
-    $('#content').bind('DOMNodeInserted DOMNodeRemoved', function(){
+    $('#content').ready(function(){
       if ($(window).width() < 767) {
             $(".clickable").click(function(e){
                 e.preventDefault();
@@ -57,6 +57,7 @@
         $('html, body').animate({ scrollTop: 0 }, 0);
         $('button.navbar-toggler').addClass("collapsed");
         $('div.navbar-collapse').removeClass("show");
+        $("#content").trigger("ready");
     }
   </script>
 </head>
