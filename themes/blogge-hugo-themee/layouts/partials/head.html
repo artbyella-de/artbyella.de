@@ -28,22 +28,15 @@
   {{ $jquery := resources.Get "js/jquery-3.6.1.min.js" | minify }}
   <script src="{{ $jquery.Permalink }}"></script>
   <script>
-    $(function(){
-        if ($(window).width() < 767) {
-            $("li.nav-item").click(function(e){
-                e.preventDefault();
-                loadPage($(this).attr('href'))
-            });
-        }
-    });
-    $(function(){
-        if ($(window).width() < 767) {
-            $(".clickable").click(function(e){
-                    e.preventDefault();
-                    loadPage($(this).attr('href'))
-                });
-        }
-    });
+    $("li.nav-item").click(function(e){
+      e.preventDefault();
+      loadPage($(this).attr('href'))
+    }).trigger('click');
+
+    $(".clickable").click(function(e){
+      e.preventDefault();
+      loadPage($(this).attr('href'))
+    }).trigger('click');
     function loadPage(url){
         $("#content").load(url + " #content");
         $('html, body').animate({ scrollTop: 0 }, 0);
