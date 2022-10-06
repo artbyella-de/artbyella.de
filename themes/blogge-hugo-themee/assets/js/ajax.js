@@ -16,12 +16,10 @@ $(function(){
     }
 });
 
-$( window ).on( "load",function(){
+$(document).on("click", ".clickable", function(e){
     if ($(window).width() < 767) {
-        $(".clickable").click(function(e){
-                e.preventDefault();
-                loadPage($(this).attr('href'))
-            });
+        e.preventDefault();
+        loadPage($(this).attr('href'))
     }
 });
 
