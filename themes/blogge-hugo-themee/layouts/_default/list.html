@@ -13,25 +13,25 @@
         {{ range $.Paginator.Pages }}
         <article class="blog-post">
           <div class="blog-post-thumb">
-            <a href="{{ .Permalink }}"><img src="{{ .Params.thumbnail  | absURL }}" alt="blog-thum"/></a>
+            <a class="clickable"href="{{ .Permalink }}"><img src="{{ .Params.thumbnail  | absURL }}" alt="blog-thum"/></a>
           </div>
           <div class="blog-post-content">
             <div class="blog-post-tag">
-              <a href={{ printf "tags/%s" .Params.tags | absURL }}> {{ .Params.tags }} </a>
+              <a class="clickable" href={{ printf "tags/%s" .Params.tags | absURL }}> {{ .Params.tags }} </a>
             </div>
             <div class="blog-post-title">
-              <a href="{{ .Permalink }}"> {{ .Title }} </a>
+              <a class="clickable" href="{{ .Permalink }}"> {{ .Title }} </a>
             </div>
             <div class="blog-post-meta">
               <ul>
                 {{ if eq .Params.author "Ella" }}
                 <li>
-                  By <a href={{ "about" | absURL }}>{{ .Params.author }}</a>
+                  By <a class="clickable" href={{ "about" | absURL }}>{{ .Params.author }}</a>
                 </li>
                 {{end}}
                 {{ if eq .Params.author "Lya" }}
                 <li>
-                  By <a href={{ "aboutlya" | absURL }}>{{ .Params.author }}</a>
+                  By <a class="clickable" href={{ "aboutlya" | absURL }}>{{ .Params.author }}</a>
                 </li>
                 {{end}}
                 <li>
@@ -43,7 +43,7 @@
             <p>
               {{ .Summary }}
             </p>
-            <a href="{{ .Permalink }}" class="blog-post-action">lies mehr <i class="fa fa-angle-right"></i></a>
+            <a class="clickable" href="{{ .Permalink }}" class="blog-post-action">lies mehr <i class="fa fa-angle-right"></i></a>
           </div>
         </article>
         {{ end }}
@@ -58,17 +58,17 @@
           {{ range $i, $.Site.RegularPages }} {{ if eq .Params.tranding true }}
           <div class="latest-widget">
             <div class="latest-widget-thum">
-              <a href="{{ .Permalink }}" class="post-thumb"
+              <a href="{{ .Permalink }}" class="post-thumb clickable"
                 style='background-image: url("{{ .Params.thumbnail | absURL }}")'>
               </a>
               <div class="icon">
-                <a href="{{ .Permalink }}">
+                <a class="clickable" href="{{ .Permalink }}">
                   <i class="fa fa-bookmark" style="color:beige;"></i></a>
               </div>
             </div>
             <div class="latest-widget-content">
               <div class="content-title">
-                <a href="{{ .Permalink }}">
+                <a class="clickable" href="{{ .Permalink }}">
                   {{ .Title }}
                 </a>
               </div>

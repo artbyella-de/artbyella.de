@@ -16,7 +16,7 @@
             {{ end }}
             {{ if not .HasChildren}}
               <li class="nav-item">
-                <a class="nav-link" href={{ .URL | absURL }}>{{ .Name }}</a>
+                <a class="clickable nav-link" href={{ .URL | absURL }}>{{ .Name }}</a>
               </li>
             {{ end }}
           {{ end }}
@@ -46,8 +46,8 @@
     <div class="row">
       <div class="col-lg-12">
         <div class="copy-right">
-          <p>© Copyright {{ dateFormat "2006" now }} - <a class="copy-right-rights">Alle Rechte vorbehalten</a> <a href=/about>Sophia Élaine Stein</a> </p>
-          <p><a href=/datenschutz>Datenschutz</a> | <a href=/impressum>Impressum</a></p>
+          <p>© Copyright {{ dateFormat "2006" now }} - <a class="copy-right-rights">Alle Rechte vorbehalten</a> <a class="clickable" href=/about>Sophia Élaine Stein</a> </p>
+          <p><a class="clickable" href=/datenschutz>Datenschutz</a> | <a class="clickable" href=/impressum>Impressum</a></p>
         </div>
       </div>
     </div>

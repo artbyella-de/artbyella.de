@@ -10,11 +10,11 @@
         {{ range $.Paginator.Pages }}
         <article class="blog-post">
           <div class="blog-post-thumb">
-            <a href="{{ .Permalink }}"><img src="{{ .Params.thumbnail  | absURL }}" alt="blog-thum" /></a>
+            <a class="clickable" href="{{ .Permalink }}"><img src="{{ .Params.thumbnail  | absURL }}" alt="blog-thum" /></a>
           </div>
           <div class="blog-post-content">
             <div class="blog-post-title">
-              <a href="{{ .Permalink }}"> {{ .Title }} </a>
+              <a class="clickable" href="{{ .Permalink }}"> {{ .Title }} </a>
             </div>
             <div class="blog-post-meta">
               <ul>
@@ -37,7 +37,7 @@
             <p>
               {{.Summary}}
             </p>
-            <a href="{{ .Permalink }}" class="blog-post-action">lies mehr <i class="fa fa-angle-right"></i></a>
+            <a href="{{ .Permalink }}" class="blog-post-action clickable">lies mehr <i class="fa fa-angle-right"></i></a>
           </div>
         </article>
         {{ end }}

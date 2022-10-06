@@ -25,7 +25,7 @@
       </div>
       <div class="col-lg-10 order-1 order-lg-2">
         <article class="single-blog">
-          <a href={{ printf "tags/%s" .Params.tags | absURL }} class="tag">{{ .Params.tags }}</a>
+          <a href={{ printf "tags/%s" .Params.tags | absURL }} class="tag clickable">{{ .Params.tags }}</a>
           <p class="title">{{ .Title }}</p>
           <ul class="meta">
             <li>
@@ -56,7 +56,7 @@
         <div class="blog-single-presentation">
           <ul>
             {{ with .Site.RegularPages.Prev . }}
-            <li> <a href="{{.RelPermalink}}" class="tag">Vorheriger Beitrag</a>
+            <li> <a href="{{.RelPermalink}}" class="tag clickable">Vorheriger Beitrag</a>
               <a href="{{.RelPermalink}}" class="title">
                 {{ .Title }}
               </a>
@@ -65,7 +65,7 @@
             </li>
             {{ end }}
             {{ with .Site.RegularPages.Next . }}
-            <li> <a href="{{.RelPermalink}}" class="tag">Nächster Beitrag</a>
+            <li> <a href="{{.RelPermalink}}" class="tag clickable">Nächster Beitrag</a>
               <a href="{{.RelPermalink}}" class="title">
                 {{ .Title }}
               </a>

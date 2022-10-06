@@ -1,7 +1,7 @@
 <!-- Navbar Start -->
 <nav class="main-nav navbar navbar-expand-lg">
   <div class="container">
-    <a class="navbar-brand" href={{ "" | absURL }} style="padding-top: 0px">
+    <a class="navbar-brand clickable" href={{ "" | absURL }} style="padding-top: 0px">
       <img class="logo-main" src={{ .Site.Params.logo | absURL }} alt="logo" />
     </a>
     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#mainNav">
@@ -74,11 +74,11 @@
         {{ range .Site.Menus.main }}
           {{ if .HasChildren}}
             <li class="dropdown nav-item">
-              <a class="dropbtn nav-link {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">{{ .Name }} ▾</a>
+              <a class="clickable dropbtn nav-link {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">{{ .Name }} ▾</a>
                 <ul style="margin-right: 0; padding-right: 0;" class="dropdown-content navbar-nav ml-auto">
                 {{ range .Children }}
                   <li style="list-style: none;" class="nav-item">
-                    <a class="nav-link" style="font-size: 14px;" href={{ .URL | absURL }}>{{ .Name }}</a>
+                    <a class=" clickablenav-link" style="font-size: 14px;" href={{ .URL | absURL }}>{{ .Name }}</a>
                   </li>
                 {{ end }}
                 </ul>
@@ -86,7 +86,7 @@
           {{ end }}
           {{ if not .HasChildren}}
             <li class="nav-item">
-              <a class="nav-link" href={{ .URL | absURL }}>{{ .Name }}</a>
+              <a class="clickable nav-link" href={{ .URL | absURL }}>{{ .Name }}</a>
             </li>
           {{ end }}
         {{ end }}

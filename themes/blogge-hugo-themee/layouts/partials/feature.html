@@ -9,13 +9,13 @@
             <div class="featured-post-author">
               <img src="{{ .Params.authorThumb | absURL }}" alt="author" />
               {{ if eq .Params.author "Ella" }}
-              <p>By <a href={{ "about" | absURL }}>{{ .Params.author }}</a></p>
+              <p>By <a class="clickable" href={{ "about" | absURL }}>{{ .Params.author }}</a></p>
               {{ end }}
               {{ if eq .Params.author "Lya" }}
-              <p>By <a href={{ "aboutlya" | absURL }}>{{ .Params.author }}</a></p>
+              <p>By <a class="clickable" href={{ "aboutlya" | absURL }}>{{ .Params.author }}</a></p>
               {{ end }}
             </div>
-            <a href="{{ .Permalink }}" class="featured-post-title">
+            <a href="{{ .Permalink }}" class="featured-post-title clickable">
               {{ .Title }}
             </a>
             <ul class="featured-post-meta">
@@ -26,7 +26,7 @@
             </ul>
           </div>
           <div class="featured-post-thumb">
-            <a href="{{ .Permalink }}"><img src="{{ .Params.thumbnail  | absURL }}" alt="feature-post-thumb" /></a>
+            <a class="clickable" href="{{ .Permalink }}"><img src="{{ .Params.thumbnail  | absURL }}" alt="feature-post-thumb" /></a>
           </div>
         </article>
       </div>
