@@ -44,7 +44,7 @@
                 });
         }
     });
-    $('#content').on('DOMSubtreeModified', function(){
+    $('#content').bind('DOMNodeInserted DOMNodeRemoved', function(){
       if ($(window).width() < 767) {
             $(".clickable").click(function(e){
                 e.preventDefault();
