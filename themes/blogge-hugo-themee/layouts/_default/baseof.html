@@ -14,6 +14,7 @@
     });
     function loadPage(url){
         $("#content").load(url + " #content");
+        $('html, body').animate({ scrollTop: 0 }, 0);
     }
     </script>
 <body>
