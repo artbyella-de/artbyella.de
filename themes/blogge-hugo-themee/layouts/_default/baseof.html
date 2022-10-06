@@ -2,18 +2,23 @@
 <html>
 {{ partial "head.html" . }}
 <script>
+    
     $(document).ready(function(){
-        $("li").click(function(e){
-            e.preventDefault();
-            loadPage($(this).attr('href'))
-        });
-    });
-    $(document).ready(function(){
-        $("a.clickable").click(function(e){
+        if ($(window).width() < 767) {
+            $("li.nav-item").click(function(e){
                 e.preventDefault();
                 loadPage($(this).attr('href'))
             });
-        });
+        }
+    });
+    $(document).ready(function(){
+        if ($(window).width() < 767) {
+            $("a.clickable").click(function(e){
+                    e.preventDefault();
+                    loadPage($(this).attr('href'))
+                });
+        }
+    });
     function loadPage(url){
         $("#content").load(url + " #content");
         $('html, body').animate({ scrollTop: 0 }, 0);
