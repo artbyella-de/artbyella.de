@@ -13,7 +13,7 @@
     });
     $(document).ready(function(){
         if ($(window).width() < 767) {
-            $("a.clickable").click(function(e){
+            $(".clickable").click(function(e){
                     e.preventDefault();
                     loadPage($(this).attr('href'))
                 });
