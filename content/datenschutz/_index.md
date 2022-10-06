@@ -3,7 +3,7 @@ title: "Datenschutzerklärung"
 preview: /images/posts/feat-image-datenschutz.png
 ---
 
-## 1. Datenschutz auf einen Blick 
+### 1. Datenschutz auf einen Blick 
 ### Allgemeine Hinweise
 Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten Datenschutzerklärung.
 ### Datenerfassung auf dieser Website
@@ -19,7 +19,7 @@ Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfäng
 
 Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit an uns wenden.
 
-## 2. Hosting
+### 2. Hosting
 Wir hosten die Inhalte unserer Webseite bei folgendem Anbieter:
 #### Externes Hosting
 Diese Website wird extern gehostet. Die personenbezogenen Daten, die auf dieser Website erfasst werden, werden auf den Servern des Hosters / der Hoster gespeichert. Hierbei kann es sich v. a. um IP-Adressen, Kontaktanfragen, Meta- und Kommunikationsdaten, Vertragsdaten, Kontaktdaten, Namen, Websitezugriffe und sonstige Daten, die über eine Website generiert werden, handeln.
@@ -37,7 +37,7 @@ Telefon: +49 721 7540755-0\
 Telefax: +49 721 7540755-9\
 E-Mail: mail@netcup.de
 
-## 3. Allgemeine Hinweise und Pflichtinformationen 
+### 3. Allgemeine Hinweise und Pflichtinformationen 
 ### Datenschutz
 Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend den gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.
 
@@ -99,7 +99,7 @@ Wenn die SSL- bzw. TLS-Verschlüsselung aktiviert ist, können die Daten, die 
 
 ### Widerspruch gegen Werbe-E-Mails
 Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-E-Mails, vor.
-## 4. Datenerfassung auf dieser Website 
+### 4. Datenerfassung auf dieser Website 
 ### Kontaktformular
 Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.
 
@@ -115,7 +115,7 @@ Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSG
 
 Die von Ihnen an uns per Kontaktanfragen übersandten Daten verbleiben bei uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck für die Datenspeicherung entfällt (z. B. nach abgeschlossener Bearbeitung Ihres Anliegens). Zwingende gesetzliche Bestimmungen – insbesondere gesetzliche Aufbewahrungsfristen – bleiben unberührt.
 
-## 5. Soziale Medien 
+### 5. Soziale Medien 
 ### Instagram
 Auf dieser Website sind Funktionen des Dienstes Instagram eingebunden. Diese Funktionen werden angeboten durch die Meta Platforms Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Irland.
 
@@ -142,7 +142,7 @@ Soweit eine Einwilligung (Consent) eingeholt wurde, erfolgt der Einsatz des o. g
 Weitere Informationen zu Zweck, Umfang und weiterer Verarbeitung und Nutzung der Daten durch Pinterest sowie Ihre diesbezüglichen Rechte und Möglichkeiten zum Schutz Ihrer Privatsphäre finden Sie in den Datenschutzhinweisen von Pinterest:
 https://policy.pinterest.com/de/privacy-policy.
 
-## 6. Plugins und Tools 
+### 6. Plugins und Tools 
 ### Font Awesome
 Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten und Symbolen Font Awesome. Anbieter ist die Fonticons, Inc., 6 Porter Road Apartment 3R, Cambridge, Massachusetts, USA.
 
