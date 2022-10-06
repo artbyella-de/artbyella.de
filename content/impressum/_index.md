@@ -4,7 +4,7 @@ preview: /images/posts/feat-image-datenschutz.png
 ---
 
 #### Angaben gemäß § 5 TMG
-<a href="/aboutlya" class="clickable">Lya Schumacher</a>
+[Lya Schumacher](/aboutlya){: .clickable }
 Im Suren Winkel 10  
 21365 Adendorf
 #### Kontakt
