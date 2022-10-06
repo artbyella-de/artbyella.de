@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html>
 {{ partial "head.html" . }}
-
-
 <script>
     $(document).ready(function(){
-        $("a").click(function(){
+        $("li").click(function(e){
             e.preventDefault();
-            e.stopPropagation();
-            loadPage($(this).attr('href'));
+            loadPage($(this).attr('href'))
+        });
+        $("a").click(function(e){
+            e.preventDefault();
+            loadPage($(this).attr('href'))
         });
     });
-function loadPage(url){
-    $.get(url + 'body', function(data) {
-        $("body").replaceWith(data);
-    });
-}
-</script>
+    function loadPage(url){
+        $("#content").load(url + " #content");
+    }
+    </script>
 <body>
     {{ partial "header.html" . }}
     <div id="content">
