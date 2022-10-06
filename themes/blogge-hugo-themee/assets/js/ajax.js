@@ -5,7 +5,9 @@ $(document).on('click','body *', function(){
             loadPage($(this).attr('href'))
         });
     }
+});
 
+$(document).on('click','body *', function(){
     if ($(window).width() < 767) {
         $(".clickable").click(function(e){
             e.preventDefault();
