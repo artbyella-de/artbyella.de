@@ -28,5 +28,5 @@ function loadPage(url){
     $('html, body').animate({ scrollTop: 0 }, 0);
     $('button.navbar-toggler').addClass("collapsed");
     $('div.navbar-collapse').removeClass("show");
-    $('a[href$="/aboutlya"]').addClass("clickable");
+    $('a[href$="aboutlya"]').addClass("clickable");
 }
