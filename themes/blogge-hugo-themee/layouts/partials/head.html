@@ -28,7 +28,7 @@
   {{ $jquery := resources.Get "js/jquery-3.6.1.min.js" | minify }}
   <script src="{{ $jquery.Permalink }}"></script>
   <script>
-    $( document ).ready(function(){
+    $( document ).on('ready readyAgain',function(){
         if ($(window).width() < 767) {
             $("li.nav-item").click(function(e){
                 e.preventDefault();
@@ -36,7 +36,7 @@
             });
         }
     });
-    $( document ).ready(function(){
+    $( document ).on('ready readyAgain',function(){
         if ($(window).width() < 767) {
             $(".clickable").click(function(e){
                     e.preventDefault();
@@ -49,6 +49,7 @@
         $('html, body').animate({ scrollTop: 0 }, 0);
         $('button.navbar-toggler').addClass("collapsed");
         $('div.navbar-collapse').removeClass("show");
+        $(document).trigger('readyAgain');
     }
   </script>
 </head>
