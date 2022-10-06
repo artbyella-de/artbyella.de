@@ -7,11 +7,13 @@
             e.preventDefault();
             loadPage($(this).attr('href'))
         });
-        $("a").click(function(e){
-            e.preventDefault();
-            loadPage($(this).attr('href'))
-        });
     });
+    $(document).ready(function(){
+        $("a").click(function(e){
+                e.preventDefault();
+                loadPage($(this).attr('href'))
+            });
+        });
     function loadPage(url){
         $("#content").load(url + " #content");
         $('html, body').animate({ scrollTop: 0 }, 0);
