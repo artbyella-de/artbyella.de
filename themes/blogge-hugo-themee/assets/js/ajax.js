@@ -15,7 +15,7 @@ $( document ).ready(function(){
     }
 });
 function loadPage(url){
-    $("#content").load(url + " #content");
+    $("#content").replacewith(url + " #content");
     $('html, body').animate({ scrollTop: 0 }, 0);
     $('button.navbar-toggler').addClass("collapsed");
     $('div.navbar-collapse').removeClass("show");
