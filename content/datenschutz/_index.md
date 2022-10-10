@@ -49,10 +49,10 @@ Wir weisen darauf hin, dass die Datenübertragung im Internet (z. B. bei der Ko
 
 Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
 
-[Lya Schumacher](/aboutlya)  
-Im Suren Winkel 10\
-21365 Adendorf\
-Telefon: +49 176 60818432\
+Lya Schumacher  
+Im Suren Winkel 10  
+21365 Adendorf  
+Telefon: +49 176 60818432  
 E-Mail: lya@artbyella.de
 
 Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. Ä.) entscheidet.

@@ -22,6 +22,12 @@ $(document).on("click", ".clickable", function(e){
         loadPage($(this).attr('href'))
     }
 });
+$(document).on("click", ".mob-item", function(e){
+    if ($(window).width() < 767) {
+        e.preventDefault();
+        loadPage($(this).attr('href'))
+    }
+});
 
 function loadPage(url){
     $("#content").load(url + " #content section");

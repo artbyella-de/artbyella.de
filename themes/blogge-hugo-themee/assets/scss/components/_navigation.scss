@@ -1,3 +1,16 @@
+.logo-mob {
+  display: none;
+  @include mobile {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+}
+.logo-size-mob {
+  width: 200px;
+}
+
 .main-nav {
   padding: 50px 0 20px;
   transition: all 0.5s ease-in-out;
@@ -17,6 +30,15 @@
   }
   @include mobile {
     padding: 15px 20px;
+    display: none;
+    //margin-left: 15px;
+    //position: fixed;
+    //z-index: 99;
+    //bottom: 0;
+//
+    //.featured-post {
+    //  margin-top: 20px
+    //}
   }
 
   .navbar-nav {
@@ -145,4 +167,94 @@
 
 .headroom--pinned {
   top: 0;
+}
+
+.dropbtn {
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  text-align: center;
+  position: absolute;
+  background-color: #f9f5ec;
+  min-width: 90px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e0dede;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media(max-width:991px){
+  .dropdown-content {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    box-shadow: none;
+    background-color: #fff;
+    border: none;
+  }
+  .dropdown:hover .dropdown-content {
+    display: inherit;
+  }
+
+  .dropbtn {
+    padding-left: 1;
+    margin-left: 1;
+  }
+  .nav-link {
+    padding-left: 1;
+    margin-left: 1;
+  }
+}
+
+.mob-menu {
+  display: none;
+  @include mobile {
+    display: block;
+    background-color: $primary-color;
+    text-align: center;
+    z-index: 100;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    overflow: hidden;
+    left: 0;
+    opacity: 0.9;
+  }
+}
+.mob-item :is(.fa-home, .fa-book, .fa-paint-brush, .fa-user) {
+  text-decoration: none;
+  font-size:xx-large;
+  padding: 1rem;
+
+  color: $text-color;
+  width: 23vw;
+}
+.mob-item :is(.fa-home, .fa-book, .fa-paint-brush, .fa-user):hover {
+  color: $body-color;
+}
+
+.mob-item .lighted:hover {
+  color: $body-color;
 }

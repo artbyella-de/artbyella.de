@@ -1,0 +1,21 @@
+.mob-menu {
+    display: none;
+    @include mobile {
+        display:inline;
+        background-color: $primary-color;
+        text-align: center;
+        width: 100vw;
+        position: fixed;
+        bottom: 0;
+    }
+}
+.clickable :is(.fa-home, .fa-book, .fa-paint-brush, .fa-user) {
+    text-decoration: none;
+    font-size:xx-large;
+    padding: 1rem;
+    color: $text-color;
+    width: 20vw;
+}
+.clickable :is(.fa-home, .fa-book, .fa-paint-brush, .fa-user):hover {
+    color: $body-color;
+}

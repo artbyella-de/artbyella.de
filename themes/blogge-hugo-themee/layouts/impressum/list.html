@@ -7,6 +7,8 @@
         <div class="single-blog">
           <p class="title">{{ .Title }}</p>
           <div class="single-blog-content" style="color: #808080;">
+            <h4 id="angaben-gemaß--5-tmg">Angaben gemäß § 5 TMG</h4>
+            <a class="clickable" href={{ "aboutlya" | absURL }}> {{ .Params.linktext }} </a>
             {{ .Content }}
           </div>
         </div>
