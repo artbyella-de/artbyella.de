@@ -1,4 +1,4 @@
-*---
+---
   title: "Diamonds"
   date: 2021-12-10T17:33:14+02:00
   featured: false
