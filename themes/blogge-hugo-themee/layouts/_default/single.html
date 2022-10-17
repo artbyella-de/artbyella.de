@@ -3,21 +3,26 @@
 <section class="blog-single">
   <div class="container">
     <div class="row">
-      <div class="col-lg-2 order-2 order-lg-1">
+      <div class="col-lg-21order-2 order-lg-1">
         <div class="share-now">
-          <a href="#" class="scrol">Besuche</a>
+          <a href="#" class="scrol">Beitrag Teilen!</a>
           <div class="sociel-icon">
             <ul>
               <li>
-                <a href="https://www.pinterest.com/{{ .Site.Params.pinterestUsername }}">
-                  <i class="fa fa-pinterest"></i></a></li>
-              <li>
-                <a href="https://www.instagram.com/{{ .Site.Params.instaUsername }}">
-                  <i class="fa fa-instagram"></i></a>
+                <a href="https://api.whatsapp.com/send?text={{ .Permalink }}">
+                  <i class="fa fa-whatsapp"></i></a>
               </li>
               <li>
-                <a href="https://www.deviantart.com/{{ .Site.Params.deviantartUsername }}">
-                  <i class="fa fa-deviantart"></i></a>
+                <a href="http://twitter.com/share?text=Schau vorbei!&url={{ .Permalink }}">
+                  <i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}">
+                  <i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="mailto:?subject=Schau mal!&amp;body=Check out this site {{ .Permalink }}.">
+                  <i class="fa fa-envelope"></i></a>
               </li>
             </ul>
           </div>

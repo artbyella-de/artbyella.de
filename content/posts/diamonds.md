@@ -1,4 +1,4 @@
----
+*---
   title: "Diamonds"
   date: 2021-12-10T17:33:14+02:00
   featured: false
@@ -12,7 +12,7 @@
 ---
 
 Und sie sagen
-
+*
 Sie, sie ist zu dick\
 Zu dick zu dünn.\
 Zu groß zu klein\
