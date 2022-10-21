@@ -22,7 +22,7 @@ mit 7,98 Milliarden Paar Augen
 7,98 Milliarden Perspektiven 
 und 7,98 Milliarden unendliche Gedankenwelten
 
-Jeder hat eine andre Sicht 
+Jeder hat eine andre Sicht  
 Die eine eigene Sprache spricht 
 
 Und nun bist Du hier bei mir 
