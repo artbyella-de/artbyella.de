@@ -85,4 +85,4 @@ Denn diese Zeit\
 steht für niemanden still\
 und letztendlich ist der Sinn des Lebens\
 doch einfach nur\
-zu leben
+zu leben.
