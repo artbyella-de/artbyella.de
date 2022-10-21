@@ -11,13 +11,12 @@
   preview: /images/art/feat-image-words.png
 ---
 
-Und sie sagen
-*
-Sie, sie ist zu dick\
-Zu dick zu dünn.\
-Zu groß zu klein\
-zu still zu laut,\
-zu ernst zu
+Und sie sagen  
+Sie, sie ist zu dick  
+Zu dick zu dünn.  
+Zu groß zu klein  
+zu still zu laut,  
+zu ernst zu  
 
 lächerlich
 
