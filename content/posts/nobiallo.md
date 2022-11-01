@@ -2,7 +2,7 @@
 title: Nobiallo
 tags: shapes
 date: 2021-07-22T13:45:37.423Z
-lastmod: 2022-11-01T19:15:38.242Z
+lastmod: 2022-11-01T21:56:02.285Z
 featured: false
 tranding: false
 draft: false
