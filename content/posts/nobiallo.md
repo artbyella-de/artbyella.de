@@ -1,8 +1,8 @@
 ---
 title: Nobiallo
-tags: drawing
+tags: shapes
 date: 2021-07-22T13:45:37.423Z
-lastmod: 2022-11-01T13:56:50.575Z
+lastmod: 2022-11-01T19:15:38.242Z
 featured: false
 tranding: false
 draft: false

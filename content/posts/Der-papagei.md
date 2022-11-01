@@ -1,8 +1,8 @@
 ---
 title: Der Papagei
-tags: drawing
+tags: shapes
 date: 2021-09-03T17:33:14+02:00
-lastmod: 2022-09-16T19:29:40.797Z
+lastmod: 2022-11-01T19:15:53.845Z
 featured: false
 tranding: true
 draft: false

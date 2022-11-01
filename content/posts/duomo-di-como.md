@@ -1,8 +1,8 @@
 ---
 title: Duomo di Como
-tags: drawing
+tags: shapes
 date: 2021-07-19T14:05:52.229Z
-lastmod: 2022-11-01T14:18:18.333Z
+lastmod: 2022-11-01T19:15:19.446Z
 featured: false
 tranding: false
 draft: false

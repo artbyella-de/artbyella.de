@@ -16,9 +16,9 @@ theme = "blogge-hugo-themee"
     url = "tags/words"
     weight = 2
   [[menu.main]]
-    identifier = "drawing"
-    name = "Drawing"
-    url = "tags/drawing"
+    identifier = "shapes"
+    name = "Shapes"
+    url = "tags/shapes"
     weight = 3
   [[menu.main]]
     name = "About"
