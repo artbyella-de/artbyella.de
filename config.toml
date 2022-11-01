@@ -37,7 +37,7 @@ theme = "blogge-hugo-themee"
   pinterestUsername = "artbyella03"
   deviantartUsername = "artbyella03"
   blogTitle = "Beiträge"
-  blogSubTitle = "Zeige die neusten Beiträge"
+  blogSubTitle = "Die neusten Beiträge"
 
 [taxonomies]
   tag = "tags"
