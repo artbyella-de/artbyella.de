@@ -1,16 +1,16 @@
 ---
-title: Der Papagei
-tags: drawing
-date: 2100-09-03T17:33:14+02:00
-lastmod: 2022-09-17T11:30:39.446Z
+title: Nobiallo
+tags: shapes
+date: 2021-07-22T13:45:37.423Z
+lastmod: 2022-11-01T19:15:38.242Z
 featured: false
-tranding: true
-draft: true
+tranding: false
+draft: false
 author: Ella
 authorThumb: /images/ella.png
-thumbnail: /images/posts/blog-thum-der-papagei.png
-featureImage: /images/posts/feat-image-der-papagei.png
-preview: /images/posts/feat-image-der-papagei.png
+thumbnail: /images/posts/blog-thum-nobiallo.png
+featureImage: /images/posts/feat-image-nobiallo.png
+preview: /images/posts/blog-thum-nobiallo.png
 ---
 
-> Mit Farben lernt man fliegen
+> Kunst öffnet Türen
