@@ -18,9 +18,9 @@ draft: false
 **Du** kommst aus…
 
 ...einer Welt 
-mit 7,98 Milliarden Paar Augen   
-7,98 Milliarden Perspektiven   
-und 7,98 Milliarden unendliche Gedankenwelten
+mit 8,02 Milliarden Paar Augen   
+8,02 Milliarden Perspektiven   
+und 8,02 Milliarden unendliche Gedankenwelten
 
 Jeder hat eine andre Sicht  
 Die eine eigene Sprache spricht 
